@@ -37,3 +37,12 @@ public class TimeFormat {
 		}
 	}
 }
+
+
+// Great
+// Things to pay attention to: 
+// Minutes behave the same for both 'PM' and 'AM', so instead of having ode duplicate for calculating the minutes, you can handle the 'AM' ' PM' issue and then add the minutes logic. 
+// Instead of checking negative numbers (which might be not fun sometimes) like here -
+// `else if ((12-hours)<=0)`
+// you can check the other way around: if (hours - 12 >= 12)
+
