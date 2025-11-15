@@ -13,3 +13,7 @@ public class Ascend {
 		System.out.println(min + " " + middle + " " + max);
 	}
 }
+
+
+// Great work!
+
